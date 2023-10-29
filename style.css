@@ -96,7 +96,7 @@ div.cover-contact {
 }
 div.cover-contact a{
     display: inline-block;
-    margin-right: 5px;
+    margin-right: 10px;
     
     border-bottom:  3px solid var(--color1);
 }
