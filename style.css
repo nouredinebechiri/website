@@ -71,15 +71,17 @@ img.cover-profile {
 
 h1 {
     color: white;
-    text-align: center;
+    
     font-size: 42px;
     margin-top: 10px;
     margin-bottom: 0px;
 }
-
+div.cover-content {
+    max-width: 430px; margin: auto;
+}
 div.cover p {
     color: lightgray;
-    text-align: center;
+  
     margin-top: 8px;
     font-size: 14px;
 }
@@ -88,8 +90,15 @@ div.cover-contact {
     position: absolute;
     top: 20px;
     left: 10px;
-    border-left: 4px solid var(--color1);
+/*    border-left: 4px solid var(--color1);
     padding-left: 5px;
+    */
+}
+div.cover-contact a{
+    display: inline-block;
+    margin-right: 5px;
+    
+    border-bottom:  3px solid var(--color1);
 }
 .header_iframe{
     height: 90px;
@@ -126,10 +135,21 @@ div.cover-contact * {
 }
 
 a.contact-button {
-    color: white;
+    color: var(--color1);
+    border: 3px solid var(--color1);
     padding: 8px 20px;
     text-decoration: none;
-    background-color: var(--color3);
+    background-color: #00000040;
+    display: inline-block;
+    margin-top: 0px;
+    font-size: 14px;
+}
+a.contact-button2 {
+    color: var(--color1);
+    border: 3px solid var(--color1);
+    padding: 8px 20px;
+    text-decoration: none;
+    background-color: #00000040;
     display: inline-block;
     margin-top: 18px;
     font-size: 14px;
@@ -138,12 +158,12 @@ a.contact-button {
 a.contact-button-portfolio {
     position: absolute; 
     right: 20px; 
-    top:5px;cover
+    top:5px;
 }
 
 a.contact-button:hover {
-    color: rgb(255, 255, 255);
-    background-color: #06b600;
+    color: white;
+    border: 3px solid white;
 }
 a.header_link{
     display: block;
@@ -480,6 +500,20 @@ img.portfolio {
     }
 
     /* POSTFOLIO - MOBILE */
+    div.cover-contact a{
+        display: block;
+        margin-right: 5px;
+        
+        border-bottom:  0px;
+    }
+    div.cover-contact {
+        position: absolute;
+        top: 20px;
+        left: 10px;
+        border-left: 4px solid var(--color1);
+        padding-left: 5px;
+        
+    }
     .portfolio-header-title {
         font-size: 19px;
         padding-top: 10px;
