@@ -368,11 +368,27 @@ img.portfolio {
     text-align: center;
 }
 .aa tr{
+    margin-right: 55px;;
     margin-top: 5px ;  
     margin-bottom: 5px;
     display: inline-block;
-    max-width: 50%;
+    max-width: 43%;
     min-height: 200px;
+
+}
+.help_categroies{
+    min-height: 40px;       
+}
+.aa td img{
+    width: 50px;
+    height: 50px;
+    margin-top: -10px;
+    margin-right: 10px;
+    float: left;
+}
+.aa td h3{
+    font-size: 22px;
+    color: var(--color4);
 }
 .portfolio_col tr p{
     text-align: left;
@@ -383,8 +399,8 @@ img.portfolio {
 
 .img-serivce-tech{
     max-width: 150px;
-    
 }
+
 .img_portfolio_col{
     max-width: 150px;
     height: 80px;
@@ -393,7 +409,6 @@ img.portfolio {
 .img_aa{
     max-width: 150px;
     height: 80px;
-    
 }
 .section-content{
     margin: auto; 
@@ -442,6 +457,16 @@ img.portfolio {
     img.cover-profile {
         height: 90px;
         margin-top: 75px;
+    }
+    .help_categroies{
+        height: 40px;  
+    }
+    .aa td h3{
+        font-size: 18px;
+        color: var(--color4);
+    }
+    .aa td img{
+        width: 40px;
     }
     .nb {
         font-size: 32px;
