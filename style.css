@@ -95,9 +95,6 @@ div.cover-contact {
     position: absolute;
     top: 20px;
     left: 10px;
-/*    border-left: 4px solid var(--color1);
-    padding-left: 5px;
-    */
 }
 div.cover-contact a{
     display: inline-block;
