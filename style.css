@@ -40,7 +40,9 @@ body {
     font-family: Arial;
     line-height: 1.5;
 }
-
+.italic{
+    font-style: italic;
+}
 iframe {
     width: 100%;
     border: none;
@@ -180,6 +182,9 @@ a.header_link:hover{
     padding-bottom: 30px;
     overflow: auto;
 }
+.section_col1 {
+    background-color: var(--color2);
+}
 .description{
     background-color: var(--color2);
 }
@@ -297,6 +302,9 @@ div.frame img {
     padding-left: 8px;
 }
 
+.img-portfolio-header{
+    width: 100px; margin-bottom: -10px;
+}
 h1.portfolio {
     font-size: 34px;
     color: var(--color4);
@@ -312,7 +320,7 @@ h2.portfolio {
     margin-bottom: 0;
 }
 p.portfolio {
-  font-size: 22px;
+  font-size: 18px;
 }
 a.portfolio-back {
     color: var(--color1);
@@ -440,6 +448,10 @@ img.portfolio {
 
 /* RESPONSIVE DESIGN : MOBILE */
 @media only screen and (max-width: 767px) {
+    .img-portfolio-header{
+        display: block;
+        margin-bottom: 10px;
+    }
     .header_img{
       display: none;
     }
