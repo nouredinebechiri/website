@@ -88,7 +88,6 @@ div.cover-content {
 }
 div.cover p {
     color: lightgray;
-  
     margin-top: 8px;
     font-size: 14px;
 }
@@ -310,8 +309,8 @@ div.frame img {
 h1.portfolio {
     font-size: 28px;
     color: var(--color4);
-    margin-top: 20px;
-    margin-bottom: 40px;
+   padding: 0px;
+
 }
 
 h2.portfolio {
