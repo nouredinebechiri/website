@@ -303,12 +303,14 @@ div.frame img {
 }
 
 .img-portfolio-header{
-    width: 100px; margin-bottom: -10px;
+    width: 120px;
+    height: 60px;
+    margin-right: 20px;
+    margin-bottom: -20px;
 }
 h1.portfolio {
-    font-size: 34px;
+    font-size: 28px;
     color: var(--color4);
-    line-height: 1;
     margin-top: 20px;
     margin-bottom: 40px;
 }
