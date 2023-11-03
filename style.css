@@ -59,7 +59,7 @@ iframe {
 }
 div.cover {
     background: url(img/cover_overlay.png) no-repeat center/100% 100%,url(img/cover.jpg) no-repeat center/cover;
-    height: 360px;
+    height: 380px;
     position: relative;
 }
 
@@ -114,9 +114,7 @@ div.cover-contact a{
     position: absolute;
     top: 15px;
     left: 110px;
-   
     padding-left: 5px;
-
 }
 
 div.cover-contact p {
@@ -287,10 +285,9 @@ div.frame img {
 
 /* PORTFOLIO */
 .portfolio-header {
-    min-height: 90px;
+    min-height: 75px;
     background: url(img/header.jpg) no-repeat center/cover;
     position: relative;
-    
 }
 
 .portfolio-header-title {
@@ -310,8 +307,7 @@ div.frame img {
 h1.portfolio {
     font-size: 28px;
     color: var(--color4);
-   padding: 0px;
-
+    padding: 0px;
 }
 
 h2.portfolio {
