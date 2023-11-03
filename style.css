@@ -453,10 +453,10 @@ img.portfolio {
         margin-bottom: 10px;
     }
     .header_img{
-      display: none;
+      width: 70px;
     }
     .header-contact {
-        left: 10px;    
+         left: 95px;
     }
   
     .section-content{
