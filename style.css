@@ -40,6 +40,12 @@ body {
     font-family: Arial;
     line-height: 1.5;
 }
+.arrow_up{
+    width: 40px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}
 .italic{
     font-style: italic;
 }
